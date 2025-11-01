@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.introduction{
+    background-color: #366193;
+    padding: 35px 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.introduction h1{
+    font-size: 3rem;
+    margin: 10px 12px;
+}
+
+.introduction .web{
+    font-style: italic;
+    font-size: 1.9rem;
+    margin: 10px 12px;
+}
+
+.introduction .loc{
+    font-size: 1.7rem;
+}
+
+.main{
+    max-inline-size: 1000px;
+    margin-inline: auto;
+
+    @media (width < 640px) {
+        text-align: center;
+    }
+}
+
+.about_me, .skills, .projects, .socials{
+    margin: 25px;
+}
+
+.skills ul{
+    margin: 10px 5px;
+    list-style-position: inside;
+}
+
+.pros{
+    margin-block: 30px;
+    
+}
+
+
+
+.pros h3{
+    font-style: italic;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+social_links{
+    display: flex;
+    gap: 50px;
+}
+
+.social_links a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 1.8rem;
+}
+
+.social_links a:hover{
+    text-decoration: underline;
+    transition: ease-in-out;
+    display: .3;
+}
+
+.contact{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #686161;
+    color: #fff;
+    padding: 15px;
+}
